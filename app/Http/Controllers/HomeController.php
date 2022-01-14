@@ -31,6 +31,7 @@ class HomeController extends Controller
 
         return view('anagrama');
     }
+    
     public function anagrama(Request $request)
     {   
         $request->validate([
